@@ -1,4 +1,8 @@
-"""Vector-based semantic retrieval."""
+"""
+Dense vector retrieval implementation.
+
+Standard semantic search using cosine similarity between query and document embeddings.
+"""
 
 from typing import List, Dict, Any
 
