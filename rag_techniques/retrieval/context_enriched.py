@@ -1,4 +1,9 @@
-"""Context-enriched retrieval with neighboring chunks."""
+"""
+Context-enriched retrieval.
+
+Technique to retrieve the most relevant chunk but return it along with
+its surrounding neighbors (pre/post context) for better LLM grounding.
+"""
 
 from typing import List, Dict, Any
 
