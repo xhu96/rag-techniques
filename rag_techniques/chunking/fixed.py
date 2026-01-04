@@ -1,4 +1,10 @@
-"""Fixed-size text chunking with overlap."""
+"""
+Fixed-size text splitting strategies.
+
+Implementations of:
+- FixedSizeChunker: Split by character count with overlap
+- RecursiveChunker: Split by separators (like newlines) then characters
+"""
 
 from typing import List, Dict, Any
 
