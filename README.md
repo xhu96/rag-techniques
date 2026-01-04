@@ -1,4 +1,4 @@
-# RAG Techniques
+# RAG Techniques Library
 
 A modular Python library implementing various Retrieval-Augmented Generation (RAG) techniques.
 
