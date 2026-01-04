@@ -1,14 +1,11 @@
 """
-RAGAS-style evaluation metrics for RAG systems.
+RAGAS-style evaluation metrics.
 
-Implements key metrics from the RAGAS framework:
-- Faithfulness: Factual consistency with retrieved context
-- Answer Relevancy: Relevance of answer to query
-- Context Precision: Quality of retrieved context
-- Context Recall: Coverage of required information
-
-Reference: "RAGAS: Automated Evaluation of Retrieval Augmented Generation"
-           https://arxiv.org/abs/2309.15217
+Implementation of key RAG performance indicators:
+- Faithfulness
+- Answer Relevancy
+- Context Precision
+- Context Recall
 """
 
 from abc import ABC, abstractmethod
