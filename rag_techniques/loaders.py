@@ -1,4 +1,11 @@
-"""Document loaders for various file formats."""
+"""
+Document ingestion loaders.
+
+Utilities to load and preprocess documents from:
+- PDF files (using pypdf)
+- Markdown files (optional code block stripping)
+- Text files and Directories
+"""
 
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
