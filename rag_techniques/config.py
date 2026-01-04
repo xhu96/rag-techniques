@@ -7,6 +7,12 @@ from pydantic import Field
 
 class Settings(BaseSettings):
     """
+    Configuration management.
+
+    Handles environment variables and settings validation using Pydantic:
+    - API Keys (OpenAI, etc.)
+    - Model selection (Embedding, LLM)
+    - RAG parameters (Chunk size, Top-K)
     Global settings for the RAG Techniques library.
     
     Settings are loaded from environment variables with the RAG_ prefix.
