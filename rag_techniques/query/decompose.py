@@ -1,4 +1,9 @@
-"""Query decomposition for complex queries."""
+"""
+Query decomposition.
+
+Breaks down complex multi-hop questions into simpler, independent sub-queries
+for easier retrieval.
+"""
 
 from typing import List
 
