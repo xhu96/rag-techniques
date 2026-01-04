@@ -1,4 +1,10 @@
-"""Query rewriting for improved retrieval."""
+"""
+Query rewriting strategies.
+
+Methods:
+- Standard Rewrite: Optimize query for retrieval
+- Step-Back Prompting: Generate broader, high-level questions
+"""
 
 from rag_techniques.query.base import QueryTransformer
 from rag_techniques.core.llm import LLMProvider, OpenAILLM
