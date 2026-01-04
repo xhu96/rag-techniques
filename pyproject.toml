@@ -2,6 +2,7 @@
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
+# Project Configuration
 [project]
 name = "rag-techniques"
 version = "0.1.0"
