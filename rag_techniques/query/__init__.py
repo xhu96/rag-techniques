@@ -1,4 +1,11 @@
-"""Query transformation module for improving retrieval."""
+"""
+Query transformation techniques.
+
+Techniques to optimize user queries before retrieval:
+- QueryRewriter: Standard rewriting and Step-Back Prompting
+- QueryDecomposer: Breaking complex queries into sub-questions
+- HyDE: Hypothetical Document Embeddings
+"""
 
 from rag_techniques.query.base import QueryTransformer
 from rag_techniques.query.rewrite import QueryRewriter
