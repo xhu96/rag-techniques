@@ -1,11 +1,4 @@
 """
-RAG Techniques - A modular library for Retrieval-Augmented Generation.
-
-This library provides composable components for building RAG pipelines:
-- Embedding providers (OpenAI, SentenceTransformers)
-- Chunking strategies (fixed-size, semantic)
-- Vector stores (in-memory, ChromaDB)
-- Retrieval techniques (vector, hybrid, context-enriched)
 - Query transformations (rewrite, decompose, HyDE)
 - Reranking (LLM-based, cross-encoder)
 - Evaluation metrics (RAGAS-style)
