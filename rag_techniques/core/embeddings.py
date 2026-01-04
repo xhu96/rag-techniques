@@ -138,7 +138,13 @@ class SentenceTransformerEmbeddings(EmbeddingProvider):
     
     @property
     def dimension(self) -> int:
-        """Return embedding dimension."""
+        """
+Embedding provider implementations.
+
+Contains:
+- OpenAIEmbeddings: Use OpenAI's embedding API
+- SentenceTransformerEmbeddings: Use local HuggingFace models
+"""
         return self._dimension
 
 
