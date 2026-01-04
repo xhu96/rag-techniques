@@ -1,4 +1,9 @@
-"""HyDE - Hypothetical Document Embeddings."""
+"""
+Hypothetical Document Embeddings (HyDE).
+
+Generates a hypothetical answer to the query and uses its embedding for retrieval,
+improving semantic matching with actual documents.
+"""
 
 from typing import List
 
