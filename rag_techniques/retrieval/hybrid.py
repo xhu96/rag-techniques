@@ -1,4 +1,9 @@
-"""Hybrid retrieval combining sparse and dense search."""
+"""
+Hybrid retrieval implementation.
+
+Combines BM25 (Keywork search) and Vector Search (Semantic search)
+using Reciprocal Rank Fusion (RRF).
+"""
 
 from typing import List, Dict, Any
 from collections import defaultdict
