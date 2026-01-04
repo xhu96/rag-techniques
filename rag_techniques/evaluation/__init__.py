@@ -1,4 +1,12 @@
-"""Evaluation module for RAG metrics."""
+"""
+Evaluation framework for RAG systems.
+
+Implements RAGAS-inspired metrics:
+- Faithfulness: Hallucination detection
+- AnswerRelevancy: Query-Response alignment
+- ContextPrecision: Signal-to-noise ratio in retrieval
+- ContextRecall: Coverage of ground truth info
+"""
 
 from rag_techniques.evaluation.metrics import (
     Metric,
