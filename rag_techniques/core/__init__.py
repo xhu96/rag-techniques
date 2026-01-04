@@ -1,4 +1,10 @@
-"""Core module containing base abstractions."""
+"""
+Core components for the RAG library.
+
+Defines the abstract base classes and concrete implementations for:
+- EmbeddingProvider: Wrapper for embedding models (OpenAI, SentenceTransformers)
+- LLMProvider: Wrapper for Language Models (OpenAI, etc.)
+"""
 
 from rag_techniques.core.embeddings import (
     EmbeddingProvider,
