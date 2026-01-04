@@ -1,4 +1,9 @@
-"""LLM-based reranking."""
+"""
+LLM-based reranking.
+
+Uses a generative LLM to assess document relevance by asking it to
+rate the usefulness of the context for answering the query.
+"""
 
 from typing import List
 import re
