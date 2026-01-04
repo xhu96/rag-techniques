@@ -1,4 +1,9 @@
-"""LLM providers for text generation."""
+"""LLM p"""
+LLM provider implementations.
+
+Contains:
+- OpenAILLM: Wrapper for OpenAI chat completion API (and compatible endpoints)
+"""
 
 from abc import ABC, abstractmethod
 from typing import List, Dict, Any
