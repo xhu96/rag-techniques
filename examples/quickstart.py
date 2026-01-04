@@ -1,7 +1,11 @@
 """
 Quick start example for RAG Techniques library.
 
-Demonstrates basic usage of the RAGPipeline with sample documents.
+Demonstrates end-to-end usage:
+1. Initialize Pipeline
+2. Add Documents
+3. Run Query
+4. Display Results
 """
 
 from rag_techniques import RAGPipeline, configure
