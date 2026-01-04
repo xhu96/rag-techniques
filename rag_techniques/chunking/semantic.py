@@ -1,4 +1,9 @@
-"""Semantic chunking based on embedding similarity."""
+"""
+Semantic text segmentation.
+
+Uses embedding similarity to identify topic shifts and natural breakpoints
+in the text stream.
+"""
 
 from typing import List, Dict, Any, Literal
 import re
