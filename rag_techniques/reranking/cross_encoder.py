@@ -1,4 +1,9 @@
-"""Cross-encoder based reranking."""
+"""
+Cross-Encoder reranking.
+
+Uses BERT-based Cross-Encoder models (via sentence-transformers) to
+compute precise relevance scores between query and document pairs.
+"""
 
 from typing import List
 
