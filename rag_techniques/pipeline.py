@@ -1,9 +1,11 @@
 """
-RAG Pipeline - Composable orchestration of RAG components.
+RAG Pipeline Orchestrator.
 
-Provides a high-level interface for building RAG systems by
-composing chunking, retrieval, reranking, query transformation,
-and generation components.
+High-level interface for building and running RAG systems by composing:
+- Loaders & Chunkers
+- Embeddings & Vector Stores
+- Retrievers & Rerankers
+- Query Transformers & LLMs
 """
 
 from dataclasses import dataclass, field
