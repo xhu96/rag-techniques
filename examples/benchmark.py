@@ -1,8 +1,11 @@
 """
 Benchmark script to compare RAG techniques.
 
-Compares different retrieval strategies on the same queries
-and measures accuracy based on ground truth answers.
+Runs a comparative analysis of different pipelines:
+- Simple RAG (Fixed Chunking)
+- Hybrid RAG (BM25 + Dense)
+- Different chunk sizes
+Measures Faithfulness, Relevancy (via RAGAS), and Latency.
 """
 
 import json
