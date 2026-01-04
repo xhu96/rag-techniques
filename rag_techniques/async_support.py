@@ -1,4 +1,11 @@
-"""Async support for RAG Techniques library."""
+"""
+Asynchronous utility wrappers.
+
+Provides async/await support for I/O-bound operations:
+- AsyncEmbeddingProvider: Thread-pooled embeddings
+- AsyncLLMProvider: Non-blocking generation
+- AsyncRetriever: Concurrent vector search
+"""
 
 import asyncio
 from typing import List, Dict, Any
