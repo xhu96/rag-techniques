@@ -1,4 +1,8 @@
-"""ChromaDB-based persistent vector store."""
+"""
+ChromaDB vector store backend.
+
+Provides persistent storage, metadata filtering, and optimized HNSW search.
+"""
 
 from typing import List, Dict, Any
 import uuid
