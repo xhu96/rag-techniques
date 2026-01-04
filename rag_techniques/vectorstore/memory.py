@@ -1,4 +1,8 @@
-"""In-memory vector store implementation."""
+"""
+In-memory vector store implementation.
+
+A lightweight, NumPy-based vector store for testing and small datasets.
+"""
 
 from typing import List, Dict, Any
 import numpy as np
